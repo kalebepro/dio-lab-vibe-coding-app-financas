@@ -1,34 +1,33 @@
-# 💸 App de financas do Kalebe com Vibe Coding
+# 💸 App de Finanças Pessoais do Kalebe com Vibe Coding
 
-PRD refinado no Google Gemini
-´´´
-Olá Gemini preciso que você me ajude a refinar um PRD que quero usar no Lovable.
+
+```txt
+Olá Gemini preciso que você me ajude a refinar um PRD que quero usar no Lovable. 
 A ideia é criar um app simples de controle de finanças, que contenham um assistente AI para facilitar o preenchimento de dados, com um chat que receba as receita, ativos e gastos e saiba classificar e criar um balanço de forma simples e visual. Tendo a opção de de anexar arqivos e imagens, bem como adicionar por voz no chat. Sempre atualizando o balanço a cada nova interação pelo chat.  Pode acrescentar a opção de vincular bancos online e cartões, assim o app também consegue montar seus dados através da movimentação atualizando o balanço. (essa parte tem que conter camadas extras de segurança). Essência que seja um aplicativo leve e que rode bem em qualquer dispositivo. É interessante criar um ambiente divertido, atraente e que desperte o desejo nas pessoas de utilizá-lo e criar o hábito  de controlar as finanças. Segue o PRD que tenho, o refine acrescentando essas ideias.
-´´´
 
 
 
 
 # Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário. 
+Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
 A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
 
 # Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização. 
+Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
 Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
 
 # Público-Alvo
 Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
 
 # Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural. 
-2. Classificar automaticamente as transações. 
-3. Definir e acompanhar metas financeiras. 
-4. Receber dicas de economia do “Agente Financeiro”. 
+1. Registrar gastos via chat em linguagem natural.  
+2. Classificar automaticamente as transações.  
+3. Definir e acompanhar metas financeiras.  
+4. Receber dicas de economia do “Agente Financeiro”.  
 5. Visualizar relatórios simples e personalizados.
 
 # Entregável da IA
-Gerar um plano de MVPcom as principais telas, recursos necessários e um esboço de validação inicial. 
+Gerar um plano de MVPcom as principais telas, recursos necessários e um esboço de validação inicial.  
 Usar tom educativo e linguagem acessível, em português.
 
 RESPOSTA GEMINI:
@@ -38,33 +37,33 @@ Aqui está o refinamento do seu PRD focado 100% na camada de interação e intel
 O foco aqui é transformar o ato de anotar um gasto em uma experiência de micro-recompensa.
 1. Comportamento e Tom de Voz (Agente "Fin")
 O "Fin" não é um robô de banco; ele é um parceiro de jornada.
-* Identidade Visual no Chat: O Agente deve ter um avatar pequeno (um emoji dinâmico ou um ícone animado) que muda de expressão conforme a saúde financeira do usuário.
-* Regra de Resposta:
+ * Identidade Visual no Chat: O Agente deve ter um avatar pequeno (um emoji dinâmico ou um ícone animado) que muda de expressão conforme a saúde financeira do usuário.
+ * Regra de Resposta:
    * Gasto Necessário (Contas/Saúde): "Anotado! Essencial garantido. ✅"
    * Lazer/Desejo: "Aproveita! Você merece, e já guardei aqui pra não esquecer. 🍕"
    * Entrada de Grana: "PIX NA CONTA! 🤑 Adorei ver esse saldo subindo!"
-* Interatividade de Voz: Ao clicar no microfone, o app deve mostrar uma onda sonora (waveform) visual para indicar que está "ouvindo", dando um ar de tecnologia de ponta.
+ * Interatividade de Voz: Ao clicar no microfone, o app deve mostrar uma onda sonora (waveform) visual para indicar que está "ouvindo", dando um ar de tecnologia de ponta.
 2. Fluxo Conceitual de Telas (Interação Fluida)
 Tela A: O Feed de Conversa (Centro da Experiência)
-* Bolhas de Chat Inteligentes: As mensagens do usuário aparecem à direita, e as do "Fin" à esquerda.
-* Cards Interativos: Quando o usuário envia uma imagem (ex: foto de um café), o "Fin" responde com um card visual dentro do chat:
+ * Bolhas de Chat Inteligentes: As mensagens do usuário aparecem à direita, e as do "Fin" à esquerda.
+ * Cards Interativos: Quando o usuário envia uma imagem (ex: foto de um café), o "Fin" responde com um card visual dentro do chat:
    > Café da Tarde ☕
    > Valor: R$ 12,50
    > Categoria: Lazer
    > [Botão: Confirmar] [Botão: Editar]
-   >
-* Atualização Síncrona: O topo da tela (o Dashboard) deve ter uma animação de "contador" (os números rodando) toda vez que um valor for confirmado no chat.
+   > 
+ * Atualização Síncrona: O topo da tela (o Dashboard) deve ter uma animação de "contador" (os números rodando) toda vez que um valor for confirmado no chat.
 Tela B: O "Painel de Humor Financeiro" (Visual)
-* Em vez de gráficos de pizza estáticos, use Barras de Energia:
+ * Em vez de gráficos de pizza estáticos, use Barras de Energia:
    * Uma barra que brilha em verde quando você está abaixo do orçamento.
    * Uma barra que treme em vermelho quando você atinge o limite de uma categoria.
 3. Plano de MVP: Top 5 Funcionalidades de Interação
-* Processador de Linguagem Natural (NLP): O sistema deve entender variações como "Cinquentão no posto", "Paguei 20 de Uber" ou "Recebi 100 de bônus".
-* Feedback Visual Imediato: O saldo no topo da tela deve reagir enquanto o usuário digita ou imediatamente após o "Enter".
-* Memória de Curto Prazo: Se o usuário disser "Gastei mais 10", o Agente deve saber que é na mesma categoria da mensagem anterior ou perguntar "Mais 10 em [Categoria]?".
-* OCR de Recibos (Simples): Upload de imagem que identifica o texto principal e sugere o valor no chat para confirmação.
-* Entrada por Voz (STT): Transcrição em tempo real do áudio para o campo de texto do chat.
-🛠️ Próximo Passo para o Lovable (Prompt de Execução)
+ * Processador de Linguagem Natural (NLP): O sistema deve entender variações como "Cinquentão no posto", "Paguei 20 de Uber" ou "Recebi 100 de bônus".
+ * Feedback Visual Imediato: O saldo no topo da tela deve reagir enquanto o usuário digita ou imediatamente após o "Enter".
+ * Memória de Curto Prazo: Se o usuário disser "Gastei mais 10", o Agente deve saber que é na mesma categoria da mensagem anterior ou perguntar "Mais 10 em [Categoria]?".
+ * OCR de Recibos (Simples): Upload de imagem que identifica o texto principal e sugere o valor no chat para confirmação.
+ * Entrada por Voz (STT): Transcrição em tempo real do áudio para o campo de texto do chat.
+Execução:
 Para começar a construir a interação, use este prompt no Lovable:
 > "Crie a interface principal do 'Fluxo AI'. A tela deve ser dividida:
 >  * No topo, um painel fixo com o 'Saldo Total' em destaque e uma barra de progresso horizontal para 'Gastos do Mês'.
@@ -72,9 +71,33 @@ Para começar a construir a interação, use este prompt no Lovable:
 >  * Implemente a lógica: quando eu digitar algo como 'Gastei 30 com mercado', o app deve extrair o valor 30, subtrair do saldo no topo com uma animação numérica, e o chat deve responder: 'Anotado! 🛒 R$ 30,00 em Mercado.'
 >  * Adicione botões de Microfone e Foto ao lado do campo de texto.
 >  * Use uma paleta de cores Dark Mode com detalhes em Verde Neon para ganhos e Rosa Choque para gastos."
-'''
-- Seu **prompt final** (PRD);
-- 
+```
+
+Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
+
+> [!TIP]
+> Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
+
+### 2. Explorando o Lovable na Prática
+
+Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
+- Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
+- Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
+
+Durante essa etapa, você pode orientar a IA para três entregas principais:
+1. Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
+2. Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
+3. Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
+
+> [!TIP]
+> Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
+
+### 3. Entregando o Desafio na DIO
+
+Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
+No README do seu repositório, inclua:
+
+- Seu **prompt final** (PRD);  
 - Prints ou pequenos vídeos das interações com a IA;  
 - Um resumo do que o seu **App de Finanças Pessoais** faz;  
 - Uma breve **reflexão sobre o processo**:
