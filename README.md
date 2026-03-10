@@ -1,6 +1,6 @@
 # 💸 App de Finanças Pessoais do Kalebe com Vibe Coding
 
--PRD Refinado no Gemini:-
+PRD Refinado no Gemini:
 
 ```txt
 
@@ -56,8 +56,6 @@ Queremos resolver isso com um **chat inteligente**, que registra e classifica au
 - Medir engajamento: frequência de uso do chat e atualização de balanço.  
 - Avaliar clareza das respostas do Agente “Fin”.  
 - Observar se o app desperta hábito de registrar gastos diariamente.
-
----
 
 
 ```
