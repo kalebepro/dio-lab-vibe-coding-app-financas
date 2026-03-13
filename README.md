@@ -1,11 +1,11 @@
 # 💸 App de Finanças Pessoais do Kalebe com Vibe Coding
-
+---
 
 ## FLUXO AI
-
+---
 
  **prompt final** (PRD- Documento de Requisitos do Produto):
-
+---
 ```txt
 Olá Gemini preciso que você me ajude a refinar um PRD que quero usar no Lovable. 
 A ideia é criar um app simples de controle de finanças, que contenham um assistente AI para facilitar o preenchimento de dados, com um chat que receba as receita, ativos e gastos e saiba classificar e criar um balanço de forma simples e visual. Tendo a opção de de anexar arqivos e imagens, bem como adicionar por voz no chat. Sempre atualizando o balanço a cada nova interação pelo chat.  Pode acrescentar a opção de vincular bancos online e cartões, assim o app também consegue montar seus dados através da movimentação atualizando o balanço. (essa parte tem que conter camadas extras de segurança). Essência que seja um aplicativo leve e que rode bem em qualquer dispositivo. É interessante criar um ambiente divertido, atraente e que desperte o desejo nas pessoas de utilizá-lo e criar o hábito  de controlar as finanças. Segue o PRD que tenho, o refine acrescentando essas ideias.
@@ -77,8 +77,8 @@ Para começar a construir a interação, use este prompt no Lovable:
 >  * Adicione botões de Microfone e Foto ao lado do campo de texto.
 >  * Use uma paleta de cores Dark Mode com detalhes em Verde Neon para ganhos e Rosa Choque para gastos."
 ```
-
-Interações com o Lovable:
+---
+**Interações com o Lovable:**
  
 >crie um app de finanças baseado no segunite PRD(Product Requiremenst Document):  {PRD} 
 
@@ -103,32 +103,35 @@ Interações com o Lovable:
 >*Resposta do lovable:* Ótimas escolhas! Agora tenho uma imagem clara. Aqui está o plano:{PRD Aprimorado pelo Lovable}
 
 >*Resposta minha:* Plano Aprovado!
+---
 
 **Resultado Final no Lovable:** https://preview--happy-spend-pal.lovable.app/#
 
+
 <img width="1366" height="639" alt="Captura de tela 2026-03-13 095054" src="https://github.com/user-attachments/assets/e2d03f26-27d4-4c33-9968-f1b7fc0725b6" />
 
+---
 
-# 🚀 Funcionalidades do Fluxo AI
+#  Funcionalidades do Fluxo AI
 
-- 🤖 **Assistente Financeiro “Fin”**  
+-  **Assistente Financeiro “Fin”**  
   Conversa natural e divertida para registrar gastos, receitas e metas.
 
-- 💬 **Chat Inteligente**  
+-  **Chat Inteligente**  
   Entrada por texto, voz e imagens, com OCR para recibos.
 
-- 📊 **Dashboard Dinâmico**  
+-  **Dashboard Dinâmico**  
   Saldo total e gastos do dia em destaque, com animações visuais.
 
-- 🗂 **Classificação Automática**  
+-  **Classificação Automática**  
   Categoriza transações e entende contexto de mensagens sequenciais.
 
-- 🎯 **Metas e,, Dicas**  
+-  **Metas e,, Dicas**  
   Defina objetivos de economia e receba recomendações personalizadas.
 
-- 🔒 **Integração Bancária Segura (futuro)**  
+-  **Integração Bancária Segura (futuro)**  
   Conexão com bancos e cartões, com camadas extras de segurança.
-
+---
   ## Reflexão do processo criativo:
   
   ### O que funcionou bem?
