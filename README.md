@@ -101,8 +101,9 @@ Interações com o Lovable:
 
 >Plano Aprovado
 
+Resultado Final no Lovable: https://preview--happy-spend-pal.lovable.app/#
+<img width="1366" height="639" alt="Captura de tela 2026-03-13 095054" src="https://github.com/user-attachments/assets/e2d03f26-27d4-4c33-9968-f1b7fc0725b6" />
 
-link:https://preview--happy-spend-pal.lovable.app/#
 
 - Prints ou pequenos vídeos das interações com a IA;  
 - Um resumo do que o seu **App de Finanças Pessoais** faz;  
