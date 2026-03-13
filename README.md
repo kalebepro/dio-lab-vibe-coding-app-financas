@@ -1,8 +1,10 @@
 # 💸 App de Finanças Pessoais do Kalebe com Vibe Coding
 
-# FLUXO AI
 
-- Seu **prompt final** (PRD);  
+## FLUXO AI
+
+
+ **prompt final** (PRD- Documento de Requisitos do Produto):
 
 ```txt
 Olá Gemini preciso que você me ajude a refinar um PRD que quero usar no Lovable. 
@@ -80,29 +82,29 @@ Interações com o Lovable:
  
 >crie um app de finanças baseado no segunite PRD(Product Requiremenst Document):  {PRD} 
 
->pergunta do lovable: "Esse é um ótimo PRD! Antes de criar o plano, deixe-me esclarecer algumas coisas para garantir que criemos o MVP certo:"
+>*Pergunta do lovable:* "Esse é um ótimo PRD! Antes de criar o plano, deixe-me esclarecer algumas coisas para garantir que criemos o MVP certo:"
 
->Para o MVP, qual funcionalidade é mais importante começar?
+>*Pergunta do lovable:* Para o MVP, qual funcionalidade é mais importante começar?
 
->Tudo do PRD de uma vez
+>*Resposta minha:* Tudo do PRD de uma vez.
 
->Sobre entrada multimodal (voz e OCR de recibos), incluir no MVP ou deixar para depois?
+>*Pergunta do lovable:* Sobre entrada multimodal (voz e OCR de recibos), incluir no MVP ou deixar para depois?
 
->Texto + Voz + Foto
+>*Resposta minha:* Texto + Voz + Foto.
 
->Qual estilo visual você prefere para o app?
+>*Pergunta do lovable:* Qual estilo visual você prefere para o app?
 
->Claro e minimalista
+>*Resposta minha:* Claro e minimalista.
 
->Precisa de autenticação (login/cadastro) no MVP?
+>*Pergunta do lovable:* Precisa de autenticação (login/cadastro) no MVP?
 
->Sim, com Google também
+>*Resposta minha:* Sim, com Google também.
 
->Ótimas escolhas! Agora tenho uma imagem clara. Aqui está o plano:{PRD Aprimorado pelo Lovable}
+>*Resposta do lovable:* Ótimas escolhas! Agora tenho uma imagem clara. Aqui está o plano:{PRD Aprimorado pelo Lovable}
 
->Plano Aprovado
+>*Resposta minha:* Plano Aprovado!
 
-Resultado Final no Lovable: https://preview--happy-spend-pal.lovable.app/#
+**Resultado Final no Lovable:** https://preview--happy-spend-pal.lovable.app/#
 
 <img width="1366" height="639" alt="Captura de tela 2026-03-13 095054" src="https://github.com/user-attachments/assets/e2d03f26-27d4-4c33-9968-f1b7fc0725b6" />
 
