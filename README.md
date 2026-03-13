@@ -1,5 +1,6 @@
 # 💸 App de Finanças Pessoais do Kalebe com Vibe Coding
 
+# FLUXO AI
 
 - Seu **prompt final** (PRD);  
 
@@ -102,19 +103,40 @@ Interações com o Lovable:
 >Plano Aprovado
 
 Resultado Final no Lovable: https://preview--happy-spend-pal.lovable.app/#
+
 <img width="1366" height="639" alt="Captura de tela 2026-03-13 095054" src="https://github.com/user-attachments/assets/e2d03f26-27d4-4c33-9968-f1b7fc0725b6" />
 
 
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+# 🚀 Funcionalidades do Fluxo AI
 
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
+- 🤖 **Assistente Financeiro “Fin”**  
+  Conversa natural e divertida para registrar gastos, receitas e metas.
 
-## 💬 Conclusão
+- 💬 **Chat Inteligente**  
+  Entrada por texto, voz e imagens, com OCR para recibos.
 
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+- 📊 **Dashboard Dinâmico**  
+  Saldo total e gastos do dia em destaque, com animações visuais.
+
+- 🗂 **Classificação Automática**  
+  Categoriza transações e entende contexto de mensagens sequenciais.
+
+- 🎯 **Metas e,, Dicas**  
+  Defina objetivos de economia e receba recomendações personalizadas.
+
+- 🔒 **Integração Bancária Segura (futuro)**  
+  Conexão com bancos e cartões, com camadas extras de segurança.
+
+  ## Reflexão do processo criativo:
+  
+  ### O que funcionou bem?
+  O Lovable executou muito bem o PRD, até fez algumas perguntas iniciais para criar com exatidão o que era solicitado. Até consegui adicionar verificação OAuth.
+   
+  ### O que não funcionou como o esperado?
+  Recebi sugestões na primeira interação e gastei as interações grátis sem perceber. No outro dia só corrigi os erros e funcionou lindo e perfeitamente.
+   
+  ### O que aprendeu sobre conversar com IAs?
+
+  Aprendi que as AI's são ótimas ferramentas de trabalho, o que precisaria de vários especialistas para gerar consigo fazer em pouco tempo e de forma exelente, sempre conferindo se esta tudo certo. Tenho uma reflexão sobre elas,"existe o serrote, a serra-circular e a motosserra, ambos cortam, mas sua capacidade de produção e funcionalidade muda. Estamos na era em que usar AI é imprescindível se queremos melhorar nossa produção."
+
+
